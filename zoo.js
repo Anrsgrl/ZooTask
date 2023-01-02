@@ -1,5 +1,3 @@
-// The zoo consists of enclosures/aviaries based on different biomes.
-// In addition to the biome, the enclosure/aviary is described by the area (in square meters) and the presence of a reservoir.
 // // Animals
 var Lion = {
     id: 1,
