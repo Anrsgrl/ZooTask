@@ -1,32 +1,3 @@
-// The zoo consists of enclosures/aviaries based on different biomes.
-// In addition to the biome, the enclosure/aviary is described by the area (in square meters) and the presence of a reservoir.
-
-// The list of an animal type's characteristics:
-// - name (giraffe, bear, etc.)
-// - required biome
-// - the need for a reservoir
-// - required area per individual
-// - what does it eat
-// - predator or herbivore
-
-// The list of an animal's characteristics:
-// - name
-// - age
-// - the amount of food per day
-
-// Settlement rules:
-// An animal can only be settled in an enclosure/aviary that matches: 
-// - its biome, 
-// - the presence of a reservoir, 
-// - there is enough space for this animal.
-// Predators can only live with members of the same species.
-// Herbivores can live with any herbivore.
-
-// WHAT YOU HAVE TO DO =)
-// 1. create all the needed interfaces (for animals and for aviaries), think about base interfaces and so on
-// 2. create a function that will take an enclosure/aviary and an animal as parameters. this function should determine if the selected animal can be settled into the selected enclosure.
-// if it is possible, the animal must be added to some array within the aviary object. if it's not possible, this function must send some message to the console
-
 // // Animal's interface
 
 interface IAnimalType{
